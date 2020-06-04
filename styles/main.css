@@ -6,6 +6,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 html {
@@ -14,7 +15,7 @@ html {
 
 body {
     background-color: #f0f0f5;
-    -webkit-font-smoothing: antialiased; /*Deixa as fontes mais "moderna"*/
+    -webkit-font-smoothing: antialiased; 
 }
 
 a {
@@ -26,125 +27,4 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--title-color);
 }
 
-#page-home {
-    height: 100vh; /*Viewport height*/
-    background: url('../assets/home-background.svg') no-repeat;
-    background-position: 35vw bottom;
-}
 
-#page-home .content {
-    width: 90%;
-    max-width: 1100px;
-    margin: 0 auto;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
-#page-home header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 45px;
-}
-
-#page-home header a {
-    display: flex;
-    color: var(--title-color);
-    font-weight: 700;
-}
-
-#page-home header a span {
-    margin-right: 16px;
-    background-image: url('../assets/log-in.svg');
-    width: 20px;
-    height: 20px;
-}
-
-#page-home main {
-    max-width: 500px;
-    display: flex;
-    flex-direction: column;
-    flex: 1; /*Preenche todos os epaços vazios*/
-    justify-content: center;
-}
-
-#page-home main h1 {
-    font-size: 54px;
-}
-
-#page-home main {
-    max-width: 560px;
-}
-
-#page-home main h1 {
-    font-size: 54px;
-}
-
-#page-home main p {
-    font-size: 24px;
-    line-height: 38px;
-    margin-top: 20px;
-}
-
-#page-home main a {
-    width: 100%;
-    max-width: 360px;
-    height: 72px;
-    display: flex;
-    align-items: center;
-    margin-top: 40px;
-    background-color: var(--primary-color);
-    border-radius: 8px;
-    transition: 400ms;
-}
-
-#page-home main a:hover {
-    background-color: #2fb86e;
-}
-
-#page-home main a span {
-    width: 72px;
-    height: 72px;
-    background-color: rgba(0, 0,0, 0.08);
-    border-top-left-radius: 8px; 
-    border-bottom-left-radius: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#page-home main a span::after {
-    content: "";
-    background-image: url('../assets/search.svg');
-    width:20px;
-    height:20px;
-}
-
-#page-home main a strong {
-    flex: 1;
-    color: white;
-    text-align: center;
-}
-
-@media (max-width: 900px){
-    #page-home {
-        background-position-x: 70vw; 
-    }
-    #page-home .content {
-        align-items: center;
-        text-align: center;
-    }
-    #page-home header a {
-        position: absolute !important; /*Dá total liberdade para o elemento. "Cria uma nova folha"*/
-        bottom: 48px;
-
-        /*Encontrando o centro para posicionar o elemento no eixo horizontal*/
-        left: 50%;
-        transform: translateX(-50%);
-    }
-
-    #page-home main {
-        align-items: center;
-    }
-}
