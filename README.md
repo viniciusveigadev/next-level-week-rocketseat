@@ -14,7 +14,6 @@ Ecoleta
 
 <h3 align="center">  
   <a href="#information_source-sobre">Sobre</a> |
-  <a href="#interrobang-motivo">Etapas</a> | 
   <a href="#rocket-tecnologias-utilizadas">Tecnologias</a> | 
   <a href="#link-como-contribuir">Como Contribuir</a> | 
   <a href="#licença">Licença</a> 
@@ -26,24 +25,21 @@ Ecoleta
 
 Ecoleta é um projeto de marketplace de coleta de resíduos, criado durante o bootcamp: Next Level Week realizado pela RocketSeat - Trilha Starter, ocorrido na primeira semana de junho de 2020.
 
-## :interrobang: Etapas
+![typewriter](https://github.com/viniciusveigadev/next-level-week-rocketseat/blob/features/images/Ecoleta.gif)
 
-- Dia 1: Acelerando sua evolução 01/06 - ✅
-- Dia 2: Olhando para as oportunidades 02/06 - ✅
-- Dia 3: A escolha da Stack 03/06 - ✅
-- Dia 4: Até 2 anos em 2 meses 04/06 - ✅
-- Dia 5: Milha extra 05/06 - ✅
 
 ## :rocket: Tecnologias Utilizadas
 
 O projeto foi desenvolvido utilizando as seguintes tecnologias
 
-- Node.js
-- Express
-- NPM
-- SQLite
-- Javascript
-- Nunjucks
+- [Node.js](https://nodejs.org/)
+- [Express](https://expressjs.com/pt-br/)
+- [NPM](https://www.npmjs.com/)
+- [SQLite](https://www.sqlite.org/index.html)
+- [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5)
+- [Nunjucks](https://mozilla.github.io/nunjucks/)
 
 ## :link: Como contribuir
 
