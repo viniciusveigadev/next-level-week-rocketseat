@@ -98,3 +98,7 @@
     color: white;
     text-align: center;
 }
+
+.typewrite {
+    color: var(--primary-color);
+}
