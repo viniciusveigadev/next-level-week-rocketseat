@@ -55,5 +55,5 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 - Ir em Pull Requests do projeto original e criar uma pull request com o seu commit
 
 ## Licença
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE.md](LICENSE) para mais detalhes.
 
