@@ -7,10 +7,11 @@
         text-align: center;
     }
     #page-home header a {
-        position: absolute;
+        /* position: absolute;
         bottom: 48px;
         left: 50%;
-        transform: translateX(-50%);
+        transform: translateX(-50%); */
+        display: none;
     }
 
     #page-home main {
@@ -43,5 +44,16 @@
 @media (max-height: 760px){
     #page-home {
         background-position-y: 200px;
+    }
+}
+
+@media (max-width: 900px){
+    #page-home header a {
+          display: none;  
+    }
+}
+@media (min-width: 900px){
+    #page-home main a.button2 {
+        display: none;
     }
 }
